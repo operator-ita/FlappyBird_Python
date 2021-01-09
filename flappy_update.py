@@ -1,5 +1,7 @@
 import pygame, sys, random 
 
+print("Esto es un cambio")
+
 def draw_floor():
 	screen.blit(floor_surface,(floor_x_pos,900))
 	screen.blit(floor_surface,(floor_x_pos + 576,900))
